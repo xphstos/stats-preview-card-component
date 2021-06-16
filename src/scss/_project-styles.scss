@@ -109,6 +109,15 @@ figure {
 		padding-top: calc((446 / 540) * 100%);
 	}
 
+	&:after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background-color: var(--accent);
+		mix-blend-mode: color;
+		z-index: 1;
+	}
+
 	@media screen and (max-width: 1148px) {
 		order: -1;
 		margin: 0;
@@ -132,4 +141,5 @@ img {
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
+	opacity: 0.4;
 }

@@ -152,6 +152,14 @@ figure:before {
   width: 100%;
   padding-top: calc((446 / 540) * 100%);
 }
+figure:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--accent);
+  mix-blend-mode: color;
+  z-index: 1;
+}
 @media screen and (max-width: 1148px) {
   figure {
     order: -1;
@@ -176,5 +184,6 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  opacity: 0.4;
 }
 /*# sourceMappingURL=index.470bc167.css.map */
