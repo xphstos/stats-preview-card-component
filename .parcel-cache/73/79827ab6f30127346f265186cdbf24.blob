@@ -1,0 +1,45 @@
+:root {
+  --dark-blue: hsl(233, 47%, 7%);
+  --desat-blue: hsl(244, 38%, 16%;)
+  --accent: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --white-trans: hsla(0, 0%, 100%, 0.75);
+  --white-trans-2: hsla(0, 0%, 100%, 0.6);
+}
+
+html {
+  font-size: 15px;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 24px 88px;
+  font: 400 1rem/1.5 "Inter", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  background-color: var(--white);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: calc(100vw - 50px);
+  transform: translateX(-50%);
+  padding: 0.5rem 0;
+  opacity: 0.5;
+}
+.attribution a {
+  color: inherit;
+}
+
+article {
+  width: max((100vw - 48px), 1100px);
+}
+/*# sourceMappingURL=index.HASH_REF_d077f8f0c06598d680fa43b1470bc167.css.map */

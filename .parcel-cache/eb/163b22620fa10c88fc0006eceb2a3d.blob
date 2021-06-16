@@ -1,0 +1,40 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --cyan-dark: hsl(179, 100%, 13%);
+  --white-trans: hsla(0, 0%, 100%, 0.75);
+  --off-white: hsl(0, 0%, 95%);
+}
+
+html {
+  font-size: 15px;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 5.8666666667rem 1.6rem;
+  font: 400 1rem/1.5 "Lexend Deca", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  background-color: var(--off-white);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: calc(100vw - 50px);
+  transform: translateX(-50%);
+  padding: 0.5rem 0;
+  opacity: 0.5;
+}
+.attribution a {
+  color: inherit;
+}
+/*# sourceMappingURL=index.HASH_REF_d077f8f0c06598d680fa43b1470bc167.css.map */

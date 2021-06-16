@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="f14209191f0f7f97b51d8d660de7d901">
+
+		<title>Frontend Mentor | Stats preview card component</title>
+		<link rel="preconnect" href="d7c2b8c89e8843c0697300fa104dd24b">
+		<link href="1e478e1bf320f6a9097d0e263ca3c32e" rel="stylesheet">
+		<link rel="stylesheet" href="53675c9c91470c37f1ceeb6d02186967">
+	</head>
+	<body>
+		<article>
+			<header>
+				<h1>Get <span>insights</span> that help your business grow.</h1>
+				<p>
+					iscover the benefits of data analytics and make better decisions
+					regarding revenue, customer experience, and overall efficiency.
+				</p>
+				<section>
+					<div>
+						<span>10k+</span>
+						<h2>Companies</h2>
+					</div>
+					<div>
+						<span>314</span>
+						<h2>Templates</h2>
+					</div>
+					<div>
+						<span>12M+</span>
+						<h2>Queries</h2>
+					</div>
+				</section>
+			</header>
+			<img src="276e45d3cf8b58f5ed140d1f3dcb36b5" alt="">
+		</article>
+		10k+ companies 314 templates 12m+ queries
+
+		<footer class="attribution">
+			Challenge by
+			<a href="fc97b1b274d17510aee8884385aa7fbf" target="_blank">Frontend Mentor</a>. Coded ❤.
+		</footer>
+	</body>
+</html>
+<script src="4ad0979c663ae1096c31c630282fb70e"></script>
